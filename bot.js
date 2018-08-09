@@ -11,7 +11,7 @@ client.on('message', message => {
 
   if(message.channel.id === '477136958188158996'){
 
-    if(message.content = '!jeparticipe'){
+    if(message.content === '!jeparticipe'){
         message.member.addRole(jamParticipant);
         message.reply("vous êtes désormais inscrit à la GameJam");
       }
