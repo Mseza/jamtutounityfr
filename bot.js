@@ -9,7 +9,7 @@ client.on('message', message => {
   let guild = message.member.guild;
   let jamParticipant = guild.roles.find("name", 'Participant');
 
-  if(message.channel.id === '477136958188158996'){
+  if(message.channel.id === '477153349528191033'){
 
     if(message.content === '!jeparticipe'){
         message.member.addRole(jamParticipant);
