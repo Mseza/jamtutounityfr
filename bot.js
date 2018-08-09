@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   let guild = message.member.guild;
-  let jamParticipant = guild.roles.find("name", 'JamParticipant');
+  let jamParticipant = guild.roles.find("name", 'Participant');
 
   if(message.channel.id === '477136958188158996'){
 
