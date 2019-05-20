@@ -15,6 +15,11 @@ client.on('message', message => {
         message.member.addRole(jamParticipant);
         message.reply("vous êtes désormais inscrit à la GameJam");
       }
+    
+    if(message.content === '!test'){
+        //message.member.addRole(jamParticipant);
+        message.reply("Ce test fonctionne");
+      }
 
     }
 
